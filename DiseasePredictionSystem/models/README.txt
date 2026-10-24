@@ -1,0 +1,1 @@
+The model and evaluation.json are generated when you run: python train_model.py

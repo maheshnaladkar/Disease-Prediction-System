@@ -1,0 +1,77 @@
+{
+  "accuracy": 0.6666666666666666,
+  "classification_report": {
+    "Demo_Class_A": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "Demo_Class_B": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Demo_Class_C": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Demo_Class_D": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.625,
+      "recall": 0.75,
+      "f1-score": 0.6666666666666666,
+      "support": 6.0
+    },
+    "weighted avg": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5555555555555555,
+      "support": 6.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "labels": [
+    "Demo_Class_A",
+    "Demo_Class_B",
+    "Demo_Class_C",
+    "Demo_Class_D"
+  ],
+  "dataset_rows": 24,
+  "feature_count": 8,
+  "note": "Synthetic demonstration data only; not clinically meaningful."
+}
